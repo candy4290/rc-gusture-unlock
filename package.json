@@ -1,6 +1,6 @@
 {
   "name": "rc-gusture-unlock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gesture Unlock react component used in h5(mobile)",
   "keywords": [
     "react",
