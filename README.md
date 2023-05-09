@@ -1,4 +1,5 @@
 # rc-gusture-unlock
+
 react component used in mobile
 
 <!-- [![NPM version][npm-image]][npm-url] [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square)](https://github.com/umijs/dumi) [![npm download][download-image]][download-url] [![build status][github-actions-image]][github-actions-url] [![Codecov][codecov-image]][codecov-url] [![bundle size][bundlephobia-image]][bundlephobia-url]
@@ -14,9 +15,13 @@ react component used in mobile
 [bundlephobia-url]: https://bundlephobia.com/result?p=rc-gusture-unlock
 [bundlephobia-image]: https://badgen.net/bundlephobia/minzip/rc-gusture-unlock
  -->
+
 ## Live Demo
 
-https://codesandbox.io/s/magical-robinson-roh9hz
+Simple: https://codesandbox.io/s/magical-robinson-roh9hz
+Methods: https://codesandbox.io/s/zlke2q
+
+![image](https://github.com/candy4290/rc-gusture-unlock/blob/master/public/demo.gif)
 
 ## Install
 
@@ -33,24 +38,24 @@ render(<GustureLock />, mountNode);
 
 ## API
 
-| Property     | Type                        | Default     | Description                                                                                    |
-| ------------ | --------------------------- | ----------- | ---------------------------------------------------------------------------------------------- |
-| className    | string                      | ''          | additional class name of textarea                                                              |
-| style        | React.CSSProperties         | -           | style properties of textarea                                                                   |
-| callBack     | function(e)                 | -           | The callback function that is triggered when touchEnd is triggered                             |
-| initColor    | string                      | '#A6A6A6'   | initial circle color                                                                           |
-| initColor    | string                      | '#A6A6A6'   | initial circle color                                                                           |
-| successColor | string                      | '#3a85ff'   | success color                                                                                  |
-| errorColor   | string                      | 'red'       | error color                                                                                    |
-| size         | number                      | 280         | component's width or height                                                                    |
+| Property     | Type                | Default   | Description                                                        |
+| ------------ | ------------------- | --------- | ------------------------------------------------------------------ |
+| className    | string              | ''        | additional class name of textarea                                  |
+| style        | React.CSSProperties | -         | style properties of textarea                                       |
+| callBack     | function(e)         | -         | The callback function that is triggered when touchEnd is triggered |
+| initColor    | string              | '#A6A6A6' | initial circle color                                               |
+| initColor    | string              | '#A6A6A6' | initial circle color                                               |
+| successColor | string              | '#3a85ff' | success color                                                      |
+| errorColor   | string              | 'red'     | error color                                                        |
+| size         | number              | 280       | component's width or height                                        |
 
 ## Methods
 
-| Property     | params     | Description                                                                                    |
-| ------------ | ---------- | ---------------------------------------------------------------------------------------------- |
-| success      | -          | show success status                                                                            |
-| error        | -          | show error status                                                                              |
-| reset        | -          | reset the component to initial stat                                                            |
+| Property | params | Description                         |
+| -------- | ------ | ----------------------------------- |
+| success  | -      | show success status                 |
+| error    | -      | show error status                   |
+| reset    | -      | reset the component to initial stat |
 
 ## Development
 
