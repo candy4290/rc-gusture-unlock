@@ -35,6 +35,7 @@
     "compile2": "father build && lessc assets/index.less assets/index.css",
     "gh-pages": "npm run docs:build && npm run docs:deploy",
     "prepublishOnly": "npm run compile && np --yolo --no-publish",
+    "publish": "npm run compile && np --yolo",
     "postpublish": "npm run gh-pages",
     "lint": "eslint src/ --ext .ts,.tsx,.jsx,.js,.md",
     "prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
